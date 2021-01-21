@@ -1,12 +1,18 @@
+
+let myImage;
+
+
+
 function preload(){
-  // put preload code here
 }
 
 function setup() {
-  createCanvas(windowWidth,windowHeight)
-  // put setup code here
+  createCanvas(windowWidth,windowHeight);
+  background("blue");
+
 }
 
 function draw() {
-  // put drawing code here
+
+
 }
