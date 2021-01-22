@@ -12,7 +12,6 @@ var notButton;
 
 function preload(){
 
-  alien1 = loadImage("./assets/alien1.jpg");
   alien5 = loadImage("./assets/alien5.png");
   alien4 = loadImage("./assets/alien4.png");
   broke = loadImage("./assets/broke2.jpg");
@@ -52,7 +51,7 @@ function setup() {
 
 function draw() {
   imageMode(CENTER);
-  image(alien1, windowWidth / 2, windowHeight / 3);
+  
   cursor(CROSS);
   image(alien4, windowWidth / 2, windowHeight / 3 +60 ,400,400);
   image(stereo, windowWidth / 8, windowHeight*3/4, 260,150);
